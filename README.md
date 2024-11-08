@@ -31,3 +31,10 @@ Después de esto tendremos que instalar algunas librerias de php, con el siguien
 
 ![Text alternatiu](7.png)
 
+Seguido de esto,pondremos el comando:**sudo apt install -y php-fpm php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-ldap php-zip php-curl**
+
+![Text alternatiu](8.png)
+
+Finamlmente reiniciamos el servidor con el siguiente comando:sudo systemctl restart apache2
+
+![Text alternatiu](8.png)
