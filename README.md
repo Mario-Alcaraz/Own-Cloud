@@ -5,10 +5,12 @@ Para este paso tendremos que hacer varios pasos pero el primero es actualizar la
 
 Para actualizar la máquina tendremos que poner el código **sudo apt update**, después de eso le daremos a enter
 
-![Text alternatiu](1.png).
+![Text alternatiu](1.png)
 
 Cuando nos pregunte la contraseña pondremos usuario, todo en minusculas y le daremos a enter
 
-![Text alternatiu](2.png).
+![Text alternatiu](2.png)
 
+Después de esto le pondremos otro comando, el cual és: **sudo apt upgrade** y le daremos a enter.
 
+![Text alternatiu](3.png)
