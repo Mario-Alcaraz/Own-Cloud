@@ -23,7 +23,11 @@ Después tendremos que hacer el siguiente paso que es instalar el servidor web a
 
 ![Text alternatiu](5.png)
 
-El siguiente paso será instalar el servidor mysql-server, tendremos que poner **sudo apt install -y mysql-server**
+El siguiente paso será instalar el servidor mysql-server, tendremos que poner: **sudo apt install -y mysql-server**
 
 ![Text alternatiu](6.png)
+
+Después de esto tendremos que instalar algunas librerias de php, con el siguiente comando:**sudo apt install -y php libapache2-mod-php**
+
+![Text alternatiu](7.png)
 
