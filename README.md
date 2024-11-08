@@ -9,4 +9,6 @@ Para actualizar la máquina tendremos que poner el código **sudo apt update**, 
 
 Cuando nos pregunte la contraseña pondremos usuario, todo en minusculas y le daremos a enter
 
-![Text alternatiu](Captura de pantalla de 2024-11-07 13-56-26.png).
+![Text alternatiu](2.png).
+
+
