@@ -14,3 +14,7 @@ Cuando nos pregunte la contraseña pondremos usuario, todo en minusculas y le da
 Después de esto le pondremos otro comando, el cual és: **sudo apt upgrade** y le daremos a enter.
 
 ![Text alternatiu](3.png)
+
+Cuando nos pregunte si deseamos continuar le daremos a enter para aceptar.
+
+![Text alternatiu](4.png)
