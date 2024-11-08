@@ -37,4 +37,4 @@ Seguido de esto,pondremos el comando:**sudo apt install -y php-fpm php-common ph
 
 Finamlmente reiniciamos el servidor con el siguiente comando:sudo systemctl restart apache2
 
-![Text alternatiu](8.png)
+![Text alternatiu](9.png)
