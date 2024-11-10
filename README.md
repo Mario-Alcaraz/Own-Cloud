@@ -180,4 +180,4 @@ El siguiente comando es: **sudo chmod -R 775 .**
 
 Y por último, pondremos el siguiente comando: **sudo chown -R usuario:www-data .**
 
-![Text alternatiu](18.png)
+![Text alternatiu](Polish_20241110_184831422.png)
