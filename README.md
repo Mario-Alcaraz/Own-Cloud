@@ -20,7 +20,7 @@ Cuando nos pregunte si deseamos continuar le daremos a enter para aceptar.
 ![Text alternatiu](4.png)
 2. Instalación del servidor web `apache2`.
 
-Para esto en el terminal tendremos que poner:**sudo apt install -y apache2**
+Para esto, en el terminal, tendremos que poner:**sudo apt install -y apache2**
 
 ![Text alternatiu](5.png)
 3. Instalación del servidor de bases de datos `mysql-server`.
@@ -61,7 +61,7 @@ Esto lo haremos con el comando: **GRANT ALL ON bbdd.* to 'usuario'@'localhost';*
 ![Text alternatiu](11.png)
 
 ### Salimos de la base de datos
-Después de poner todos estos comandos de forma consecutiva, saldremos de la Mysql con el comando: **exit**
+Después de poner todos estos comandos de forma consecutiva, saldremos de Mysql con el comando: **exit**
 
 ![Text alternatiu](12.png)
 
@@ -181,3 +181,15 @@ El siguiente comando es: **sudo chmod -R 775 .**
 Y por último, pondremos el siguiente comando: **sudo chown -R usuario:www-data .**
 
 ![Text alternatiu](Polish_20241110_184831422.png)
+
+## Accedemos a OwnCloud 
+
+Finalmente, tendremos que ir a la página web de OwnCloud e iniciar sesión, el link es el siguiente: http://localhost
+
+La información que tenéis que poner en OwnCloud es esta:
+
+ **usuario:** usuario
+ **contraseña:** password
+ **base de datos:** bbdd
+ **dominio:** localhost
+
