@@ -2,12 +2,12 @@
 
 Si has llegado hasta aquí, significa que ya has completado la instalación de ownCloud y has podido entrar con la información que dejé al final del otro tutorial (usuario, contraseña, base de datos y dominio).
 
-Dentro de ownCloud puedes hacer varias cosas que explicaré a continuación
+Dentro de ownCloud puedes hacer varias cosas que explicaré a continuación.
 
 ## Crear usuarios
 
 Dentro de ownCloud, hay un apartado arriba a la derecha, con el cual, podemos crear más usuarios a parte del que ya tenemos (usuario),
-para crearlo, tenemos que darle **arriba a la derecha donde pone usuario** y seguidamente le daremos **clic a la opción del medio**
+para crearlo, tenemos que darle **arriba a la derecha donde pone usuario** y seguidamente le daremos **clic a la opción del medio**.
 
 ![text alternatiu](IMG_20241111_211957.jpg)
 
