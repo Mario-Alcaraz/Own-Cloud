@@ -3,19 +3,19 @@ En este tutorial, enseñaré paso a paso, como instalar ownCloud a través del t
 ## Instalación de apache2, MySQL y algunas librerías al contenedor
 1. Actualización de la máquina.
 
-Para actualizar la máquina tendremos que poner el código **sudo apt update**, después de eso le daremos a enter
+Para actualizar la máquina, tendremos que poner el código **sudo apt update**, después de eso, le daremos a enter
 
 ![Text alternatiu](1.png)
 
-Cuando nos pregunte la contraseña pondremos usuario, todo en minúsculas y le daremos a enter
+Cuando nos pregunte la contraseña, pondremos usuario, todo en minúsculas, y le daremos a enter
 
 ![Text alternatiu](2.png)
 
-Después de esto le pondremos otro comando, el cual es: **sudo apt upgrade** y le daremos a enter.
+Después de esto, le pondremos otro comando, el cual es: **sudo apt upgrade**, y le daremos a enter.
 
 ![Text alternatiu](3.png)
 
-Cuando nos pregunte si deseamos continuar le daremos a enter para aceptar.
+Cuando nos pregunte si deseamos continuar, le daremos a enter para aceptar.
 
 ![Text alternatiu](4.png)
 2. Instalación del servidor web 'apache2'.
@@ -23,12 +23,12 @@ Cuando nos pregunte si deseamos continuar le daremos a enter para aceptar.
 Para esto, en el terminal, tendremos que poner:**sudo apt install -y apache2**
 
 ![Text alternatiu](5.png)
-3. Instalación del servidor de bases de datos 'mysql-server'.
+3. Instalamos el servidor de bases de datos 'mysql-server'.
 
 Tendremos que poner: **sudo apt install -y mysql-server**
 
 ![Text alternatiu](6.png)
-4. Instalación de algunas librerías de 'php', el lenguaje principal que utilizan las aplicaciones.
+4. Instalamos algunas librerías de php.
 
 Esto lo haremos con el siguiente comando:**sudo apt install -y php libapache2-mod-php**
 
@@ -56,7 +56,7 @@ Lo haremos con el comando: **CREATE DATABASE bbdd;**
 Esto lo haremos con el siguiente comando: **CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';**
 
 ### Damos privilegios al usuario
-Esto lo haremos con el comando: CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; 
+Esto lo haremos con el siguiente comando: GRANT ALL ON bbdd.* to 'usuario'@'localhost';
 
 ![Text alternatiu](11.png)
 
