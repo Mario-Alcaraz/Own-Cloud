@@ -56,7 +56,7 @@ Lo haremos con el comando: **CREATE DATABASE bbdd;**
 Esto lo haremos con el siguiente comando: **CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';**
 
 ### Damos privilegios al usuario
-Esto lo haremos con el comando: **GRANT ALL ON bbdd.* to 'usuario'@'localhost';**
+Esto lo haremos con el comando: CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; 
 
 ![Text alternatiu](11.png)
 
